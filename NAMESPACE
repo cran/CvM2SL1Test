@@ -1,0 +1,2 @@
+useDynLib(CvM2SL1Test)
+export(cvmtsl1.test, cvmtsl1.pval)
