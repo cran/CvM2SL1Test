@@ -25,7 +25,7 @@ const double CXCvMTest::operator()(const double* Sample)
 
 const double CXCvMTest::ComputeStatistic(const int* IndicesOfRanks) const
 {
-   long h = 0;
+   int64_t h = 0;
    double zeta = 0;   
    for(int iRank=1; iRank<=m_nA+m_nB; iRank++){
 
@@ -49,3 +49,4 @@ CXSampleRanker::CXSampleRanker(const double * x) : m_x(x) {}
 
 inline bool CXSampleRanker::operator()(int i, int j) const
 { return m_x[i] <= m_x[j]; }
+

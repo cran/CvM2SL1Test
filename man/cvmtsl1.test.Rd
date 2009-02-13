@@ -15,7 +15,7 @@ cvmtsl1.test(x, y)
 }
 \value{score of the L1-version Cramer-von Mises two-sample test for given samples
 }
-\author{Yuanhui Xiao
+\author{Yuanhui Xiao and Ye Cui, 
 Department of Mathematics and Statistics
 Georgia State University
 Atlanta, GA 30302

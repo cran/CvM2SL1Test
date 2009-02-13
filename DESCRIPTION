@@ -1,8 +1,8 @@
 Package: CvM2SL1Test
-Version: 0.0-1
-Date:    2008-09-05
+Version: 0.0-2
+Date:    2009-02-13
 Title:   L1-version of Cramer-von Mises Two Sample Tests
-Author:  Yuanhui Xiao <matyxx@langate.gsu.edu>
+Author:  Yuanhui Xiao <matyxx@langate.gsu.edu> and Ye Cui 
 Maintainer: Yuanhui Xiao <matyxx@langate.gsu.edu>
 Depends:    
 Suggests:  
@@ -17,4 +17,4 @@ Description: The package contains two functions for L1-version of
   Simulation study also shows that it is more powerful than the Kolmogorov-Smirnov 
   test in certain cases. 
 License: GPL (Version 2 or later)
-Packaged: Sun Sep  7 21:40:13 2008; YuanhuiXiao
+Packaged: Fri Feb 20 15:13:04 2009; YuanhuiXiao
