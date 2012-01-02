@@ -15,11 +15,11 @@ cvmtsl1.test(x, y)
 }
 \value{score of the L1-version Cramer-von Mises two-sample test for given samples
 }
-\author{Yuanhui Xiao and Ye Cui, 
+\author{Yuanhui Xiao,
 Department of Mathematics and Statistics
 Georgia State University
 Atlanta, GA 30302
-\email{matyxx@langate.gsu.edu}
+\email{yxiao@gsu.edu}
 }
 \seealso{cvmtsl1.pval}
 \examples{

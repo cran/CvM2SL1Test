@@ -13,7 +13,7 @@ CXCVM::CXCVM(int nA, int nB)
 
    m_dCoe = (1.0/m_nP)*(1.0/m_nQ);
    m_dCoe /= (m_nA+m_nB);
-   m_dCoe = sqrt(m_dCoe);
+   m_dCoe = std::sqrt(m_dCoe);
 
    m_dCoe /= (m_nA+m_nB);
 }
@@ -26,8 +26,8 @@ const int64_t CXCVM::ToInt(const double dStat) const
 
    // find the integer closer to iStat   
 
-   double dCeil = ceil( iStat );
-   double dFloor = floor( iStat );
+   double dCeil = std::ceil( iStat );
+   double dFloor = std::floor( iStat );
 
    return (dFloor+dCeil < 2*iStat) ? 	 
 	   static_cast<int64_t>(dCeil) : static_cast<int64_t>(dFloor);
